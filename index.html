@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio </title>
+    <link rel="stylesheet" href="portfolio.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      <!-- <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div> -->
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I am Palak khandelwal</div>
+       <div class="text-three">Programmer/ Developer </div>
+       <div class="text-four">From Jaipur , Rajasthan </div>
+     </div>
+     <div class="button">
+       <button>Hire Me</button>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="imggg/WhatsApp Image 2023-04-01 at 21.13.01.jpeg" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Designing Is My Passion</div>
+      <p>I am from jaipur Rajasthan.I done my schooling from NVM school.  I love to read and travel. And i love teaching also I Have been doing teaching since 3 years. I love to cook food  And I love <b>developing , coading</b>  
+
+        I am an <b>electrical Engineer </b>. Batch (2019-2023). <br>
+         
+        
+        I tried to pick up programming (Java) but not sure if I can do that for my career. I regularly attend tech meetups and I know a lot of powerful people in the tech industry. <br>
+        I do not like pushy people. If you are nice, I will go out of my way to help you. I like to treat people with respect. I enjoy helping people and I love to learn about new technologies…
+        
+                 </p>
+      <div class="button">
+        <button><a href="pdff/Resume- palak Khandelwal .pdf" target="_blank">Download CV</a> </button>
+        
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p>Have a good Knowledge of <b>java</b>  <br> 140 + DSA @GFG + Hackerrank (5 star) </p>
+       <h3>Certificates</h3>
+       <a href="pdff/deloitte virtual internship.pdf">internship 1</a> <br>
+       <a href="pdff/forage internship certificate -1.pdf">internship 2</a>
+       
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">HTML</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">CSS</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">JavScript</div>
+         <div class="per">70%</div>
+       </div>
+       <div class="box">
+        <div class="topic">React js</div>
+        <div class="per">40%</div>
+             </div>
+        </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>My Services</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-desktop"></i>
+       </div>
+       <div class="topic">Web Devlopment</div>
+       <p>Frontend design with Html/ css / Javascript </p>
+            </div>
+       <div class="box">
+                <div class="topic">content Writting</div>
+                <p>programming content </p>
+            </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-chart-line"></i>
+       </div>
+       <div class="topic">Teaching</div>
+       <p>Basic programming (c , Java ) , 6th - 10 th  (SSt , Science )</p>
+     </div>
+       
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Project?</div>
+     
+      <div class="button" >
+        <button class="button " onclick="openForm()">Let's Chat</button>
+        <div class="chat-popup" id="myForm">
+          <form action="https://formspree.io/f/mlekppbn" method="POST"  class="form-container" >
+            <h1>Chat</h1>
+        
+            <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+        
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="#">Palak</a> | &#169; 2023 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
